@@ -1,0 +1,33 @@
+body {
+  background-color: rgb(242, 242, 242);
+}
+
+h1 {
+  display: grid;
+  justify-content: center;
+  font-size: xxx-large;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+}
+.container .kirby {
+  margin: 2em;
+}
+.container .log {
+  box-shadow: 1 1 1 indigo;
+  font-weight: 500;
+  color: rgb(221, 114, 26);
+  background-color: transparent;
+  font-size: xx-large;
+  border-radius: 0.5em;
+}
+
+.log:hover {
+  box-shadow: 25px -8px teal;
+  cursor: pointer;
+  transition: all 0.8s;
+  color: black;
+  background-color: antiquewhite;
+}/*# sourceMappingURL=style.css.map */
